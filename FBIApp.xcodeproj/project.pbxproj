@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31E674DC5B12A812DD242427 /* Pods_FBIAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65339F0052DD2A12D5139234 /* Pods_FBIAppTests.framework */; };
+		7A1D68E51DEB9FAA002BC266 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D68E41DEB9FAA002BC266 /* Person.swift */; };
+		7A1D68E71DEBA0E4002BC266 /* FaceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D68E61DEBA0E4002BC266 /* FaceService.swift */; };
+		7A1D68E91DEC1C28002BC266 /* displayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D68E81DEC1C28002BC266 /* displayView.swift */; };
+		7A237A7C1DEACDD000BAAED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237A7B1DEACDD000BAAED4 /* AppDelegate.swift */; };
+		7A237A7E1DEACDD000BAAED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237A7D1DEACDD000BAAED4 /* ViewController.swift */; };
+		7A237A811DEACDD000BAAED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A237A7F1DEACDD000BAAED4 /* Main.storyboard */; };
+		7A237A831DEACDD000BAAED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A237A821DEACDD000BAAED4 /* Assets.xcassets */; };
+		7A237A861DEACDD000BAAED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A237A841DEACDD000BAAED4 /* LaunchScreen.storyboard */; };
+		7A237A911DEACDD100BAAED4 /* FBIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237A901DEACDD100BAAED4 /* FBIAppTests.swift */; };
+		7A237A9C1DEACDD100BAAED4 /* FBIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237A9B1DEACDD100BAAED4 /* FBIAppUITests.swift */; };
+		7A237AAE1DEAD6E600BAAED4 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237AAD1DEAD6E600BAAED4 /* PersonCell.swift */; };
+		7A49FC401DEE9D110048977B /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A49FC3F1DEE9D110048977B /* SplashController.swift */; };
+		7A681D0B1DEEA12600B7EA5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A681D081DEEA12600B7EA5A /* GoogleService-Info.plist */; };
+		7A681D0C1DEEA12600B7EA5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A681D091DEEA12600B7EA5A /* LoginViewController.swift */; };
+		7A681D0D1DEEA12600B7EA5A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A681D0A1DEEA12600B7EA5A /* RegisterViewController.swift */; };
+		B0AE6E09E8D59E016313C0CF /* Pods_FBIApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83814273E15195ED27CA18CB /* Pods_FBIApp.framework */; };
+		C2497C8F1DF12A8700105FB4 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2497C8E1DF12A8700105FB4 /* Users.swift */; };
+		C2497C911DF14A3C00105FB4 /* FaceLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2497C901DF14A3C00105FB4 /* FaceLoginViewController.swift */; };
+		C2BE2E571DEFBCDD005F0C55 /* MissingPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE2E561DEFBCDD005F0C55 /* MissingPerson.swift */; };
+		C2BE2E591DEFE0AC005F0C55 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BE2E581DEFE0AC005F0C55 /* AddViewController.swift */; };
+		D3B52B9EB4FC7D54E548C8F2 /* Pods_FBIAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754C17E78C3291FC50340EF /* Pods_FBIAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A237A8D1DEACDD100BAAED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A237A701DEACDD000BAAED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A237A771DEACDD000BAAED4;
+			remoteInfo = FBIApp;
+		};
+		7A237A981DEACDD100BAAED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A237A701DEACDD000BAAED4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A237A771DEACDD000BAAED4;
+			remoteInfo = FBIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162A11E8488D75D81CFD2398 /* Pods-FBIAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIAppTests/Pods-FBIAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3754C17E78C3291FC50340EF /* Pods_FBIAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		388A4ECB19C3C09D78D69B0D /* Pods-FBIAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIAppUITests/Pods-FBIAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		65339F0052DD2A12D5139234 /* Pods_FBIAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1D68E11DEB8E7A002BC266 /* FBIApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FBIApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A1D68E41DEB9FAA002BC266 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		7A1D68E61DEBA0E4002BC266 /* FaceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceService.swift; sourceTree = "<group>"; };
+		7A1D68E81DEC1C28002BC266 /* displayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = displayView.swift; sourceTree = "<group>"; };
+		7A237A781DEACDD000BAAED4 /* FBIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A237A7B1DEACDD000BAAED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A237A7D1DEACDD000BAAED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A237A801DEACDD000BAAED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A237A821DEACDD000BAAED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A237A851DEACDD000BAAED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A237A871DEACDD000BAAED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A237A8C1DEACDD100BAAED4 /* FBIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A237A901DEACDD100BAAED4 /* FBIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBIAppTests.swift; sourceTree = "<group>"; };
+		7A237A921DEACDD100BAAED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A237A971DEACDD100BAAED4 /* FBIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A237A9B1DEACDD100BAAED4 /* FBIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBIAppUITests.swift; sourceTree = "<group>"; };
+		7A237A9D1DEACDD100BAAED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A237AAD1DEAD6E600BAAED4 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		7A49FC3F1DEE9D110048977B /* SplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		7A681D081DEEA12600B7EA5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7A681D091DEEA12600B7EA5A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7A681D0A1DEEA12600B7EA5A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		83814273E15195ED27CA18CB /* Pods_FBIApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBIApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF11EB477165A345C430172 /* Pods-FBIApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIApp/Pods-FBIApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CF8D6A9199811C7D0894AF /* Pods-FBIApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIApp/Pods-FBIApp.release.xcconfig"; sourceTree = "<group>"; };
+		BC1EEA1FBE182D8071FB82D2 /* Pods-FBIAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBIAppUITests/Pods-FBIAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2497C8E1DF12A8700105FB4 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		C2497C901DF14A3C00105FB4 /* FaceLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceLoginViewController.swift; sourceTree = "<group>"; };
+		C2BE2E551DEFBAD5005F0C55 /* FBIApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBIApp.entitlements; sourceTree = "<group>"; };
+		C2BE2E561DEFBCDD005F0C55 /* MissingPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingPerson.swift; sourceTree = "<group>"; };
+		C2BE2E581DEFE0AC005F0C55 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		FE5A352D99B52177F4631A5A /* Pods-FBIAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBIAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBIAppTests/Pods-FBIAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A237A751DEACDD000BAAED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AE6E09E8D59E016313C0CF /* Pods_FBIApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A237A891DEACDD100BAAED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E674DC5B12A812DD242427 /* Pods_FBIAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A237A941DEACDD100BAAED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B52B9EB4FC7D54E548C8F2 /* Pods_FBIAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C3920C1D079330EDFBBDF67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BF11EB477165A345C430172 /* Pods-FBIApp.debug.xcconfig */,
+				A4CF8D6A9199811C7D0894AF /* Pods-FBIApp.release.xcconfig */,
+				162A11E8488D75D81CFD2398 /* Pods-FBIAppTests.debug.xcconfig */,
+				FE5A352D99B52177F4631A5A /* Pods-FBIAppTests.release.xcconfig */,
+				BC1EEA1FBE182D8071FB82D2 /* Pods-FBIAppUITests.debug.xcconfig */,
+				388A4ECB19C3C09D78D69B0D /* Pods-FBIAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A237A6F1DEACDD000BAAED4 = {
+			isa = PBXGroup;
+			children = (
+				7A237A7A1DEACDD000BAAED4 /* FBIApp */,
+				7A237A8F1DEACDD100BAAED4 /* FBIAppTests */,
+				7A237A9A1DEACDD100BAAED4 /* FBIAppUITests */,
+				7A237A791DEACDD000BAAED4 /* Products */,
+				5C3920C1D079330EDFBBDF67 /* Pods */,
+				D5A5940FABCDFF79F1B82ED3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A237A791DEACDD000BAAED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A237A781DEACDD000BAAED4 /* FBIApp.app */,
+				7A237A8C1DEACDD100BAAED4 /* FBIAppTests.xctest */,
+				7A237A971DEACDD100BAAED4 /* FBIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A237A7A1DEACDD000BAAED4 /* FBIApp */ = {
+			isa = PBXGroup;
+			children = (
+				C2BE2E551DEFBAD5005F0C55 /* FBIApp.entitlements */,
+				7A681D081DEEA12600B7EA5A /* GoogleService-Info.plist */,
+				7A681D091DEEA12600B7EA5A /* LoginViewController.swift */,
+				7A681D0A1DEEA12600B7EA5A /* RegisterViewController.swift */,
+				7A237A7B1DEACDD000BAAED4 /* AppDelegate.swift */,
+				7A237A7D1DEACDD000BAAED4 /* ViewController.swift */,
+				7A49FC3F1DEE9D110048977B /* SplashController.swift */,
+				7A237A7F1DEACDD000BAAED4 /* Main.storyboard */,
+				7A237A821DEACDD000BAAED4 /* Assets.xcassets */,
+				7A237A841DEACDD000BAAED4 /* LaunchScreen.storyboard */,
+				7A237A871DEACDD000BAAED4 /* Info.plist */,
+				7A237AAD1DEAD6E600BAAED4 /* PersonCell.swift */,
+				7A1D68E11DEB8E7A002BC266 /* FBIApp-Bridging-Header.h */,
+				7A1D68E41DEB9FAA002BC266 /* Person.swift */,
+				7A1D68E61DEBA0E4002BC266 /* FaceService.swift */,
+				7A1D68E81DEC1C28002BC266 /* displayView.swift */,
+				C2BE2E561DEFBCDD005F0C55 /* MissingPerson.swift */,
+				C2BE2E581DEFE0AC005F0C55 /* AddViewController.swift */,
+				C2497C8E1DF12A8700105FB4 /* Users.swift */,
+				C2497C901DF14A3C00105FB4 /* FaceLoginViewController.swift */,
+			);
+			path = FBIApp;
+			sourceTree = "<group>";
+		};
+		7A237A8F1DEACDD100BAAED4 /* FBIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A237A901DEACDD100BAAED4 /* FBIAppTests.swift */,
+				7A237A921DEACDD100BAAED4 /* Info.plist */,
+			);
+			path = FBIAppTests;
+			sourceTree = "<group>";
+		};
+		7A237A9A1DEACDD100BAAED4 /* FBIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A237A9B1DEACDD100BAAED4 /* FBIAppUITests.swift */,
+				7A237A9D1DEACDD100BAAED4 /* Info.plist */,
+			);
+			path = FBIAppUITests;
+			sourceTree = "<group>";
+		};
+		D5A5940FABCDFF79F1B82ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83814273E15195ED27CA18CB /* Pods_FBIApp.framework */,
+				65339F0052DD2A12D5139234 /* Pods_FBIAppTests.framework */,
+				3754C17E78C3291FC50340EF /* Pods_FBIAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A237A771DEACDD000BAAED4 /* FBIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A237AA01DEACDD100BAAED4 /* Build configuration list for PBXNativeTarget "FBIApp" */;
+			buildPhases = (
+				922DB3F503B5ED09110B14A1 /* [CP] Check Pods Manifest.lock */,
+				7A237A741DEACDD000BAAED4 /* Sources */,
+				7A237A751DEACDD000BAAED4 /* Frameworks */,
+				7A237A761DEACDD000BAAED4 /* Resources */,
+				3CFC7C661158E4F085F26A7D /* [CP] Embed Pods Frameworks */,
+				0E6DF03D225A0F2FD22634A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBIApp;
+			productName = FBIApp;
+			productReference = 7A237A781DEACDD000BAAED4 /* FBIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A237A8B1DEACDD100BAAED4 /* FBIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A237AA31DEACDD100BAAED4 /* Build configuration list for PBXNativeTarget "FBIAppTests" */;
+			buildPhases = (
+				7DE85A45F29A2FFDB8FA135E /* [CP] Check Pods Manifest.lock */,
+				7A237A881DEACDD100BAAED4 /* Sources */,
+				7A237A891DEACDD100BAAED4 /* Frameworks */,
+				7A237A8A1DEACDD100BAAED4 /* Resources */,
+				4DE744F83097CEC382041B54 /* [CP] Embed Pods Frameworks */,
+				51A98E164905F6866B4D6317 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A237A8E1DEACDD100BAAED4 /* PBXTargetDependency */,
+			);
+			name = FBIAppTests;
+			productName = FBIAppTests;
+			productReference = 7A237A8C1DEACDD100BAAED4 /* FBIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A237A961DEACDD100BAAED4 /* FBIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A237AA61DEACDD100BAAED4 /* Build configuration list for PBXNativeTarget "FBIAppUITests" */;
+			buildPhases = (
+				0678F2DE80A197FF793032C5 /* [CP] Check Pods Manifest.lock */,
+				7A237A931DEACDD100BAAED4 /* Sources */,
+				7A237A941DEACDD100BAAED4 /* Frameworks */,
+				7A237A951DEACDD100BAAED4 /* Resources */,
+				C25A3DA6A003C644D6208EF1 /* [CP] Embed Pods Frameworks */,
+				34174B70897E4FF31DFE7118 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A237A991DEACDD100BAAED4 /* PBXTargetDependency */,
+			);
+			name = FBIAppUITests;
+			productName = FBIAppUITests;
+			productReference = 7A237A971DEACDD100BAAED4 /* FBIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A237A701DEACDD000BAAED4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = nempe1;
+				TargetAttributes = {
+					7A237A771DEACDD000BAAED4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5PKYKCYDR5;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					7A237A8B1DEACDD100BAAED4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 56L368TV74;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A237A771DEACDD000BAAED4;
+					};
+					7A237A961DEACDD100BAAED4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 56L368TV74;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A237A771DEACDD000BAAED4;
+					};
+				};
+			};
+			buildConfigurationList = 7A237A731DEACDD000BAAED4 /* Build configuration list for PBXProject "FBIApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A237A6F1DEACDD000BAAED4;
+			productRefGroup = 7A237A791DEACDD000BAAED4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A237A771DEACDD000BAAED4 /* FBIApp */,
+				7A237A8B1DEACDD100BAAED4 /* FBIAppTests */,
+				7A237A961DEACDD100BAAED4 /* FBIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A237A761DEACDD000BAAED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A237A861DEACDD000BAAED4 /* LaunchScreen.storyboard in Resources */,
+				7A681D0B1DEEA12600B7EA5A /* GoogleService-Info.plist in Resources */,
+				7A237A831DEACDD000BAAED4 /* Assets.xcassets in Resources */,
+				7A237A811DEACDD000BAAED4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A237A8A1DEACDD100BAAED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A237A951DEACDD100BAAED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0678F2DE80A197FF793032C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E6DF03D225A0F2FD22634A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIApp/Pods-FBIApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34174B70897E4FF31DFE7118 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIAppUITests/Pods-FBIAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFC7C661158E4F085F26A7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIApp/Pods-FBIApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DE744F83097CEC382041B54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIAppTests/Pods-FBIAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A98E164905F6866B4D6317 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIAppTests/Pods-FBIAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DE85A45F29A2FFDB8FA135E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		922DB3F503B5ED09110B14A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C25A3DA6A003C644D6208EF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBIAppUITests/Pods-FBIAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A237A741DEACDD000BAAED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A681D0D1DEEA12600B7EA5A /* RegisterViewController.swift in Sources */,
+				C2BE2E571DEFBCDD005F0C55 /* MissingPerson.swift in Sources */,
+				7A1D68E71DEBA0E4002BC266 /* FaceService.swift in Sources */,
+				C2BE2E591DEFE0AC005F0C55 /* AddViewController.swift in Sources */,
+				C2497C8F1DF12A8700105FB4 /* Users.swift in Sources */,
+				7A1D68E91DEC1C28002BC266 /* displayView.swift in Sources */,
+				7A237AAE1DEAD6E600BAAED4 /* PersonCell.swift in Sources */,
+				7A237A7E1DEACDD000BAAED4 /* ViewController.swift in Sources */,
+				7A681D0C1DEEA12600B7EA5A /* LoginViewController.swift in Sources */,
+				7A1D68E51DEB9FAA002BC266 /* Person.swift in Sources */,
+				7A49FC401DEE9D110048977B /* SplashController.swift in Sources */,
+				C2497C911DF14A3C00105FB4 /* FaceLoginViewController.swift in Sources */,
+				7A237A7C1DEACDD000BAAED4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A237A881DEACDD100BAAED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A237A911DEACDD100BAAED4 /* FBIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A237A931DEACDD100BAAED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A237A9C1DEACDD100BAAED4 /* FBIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A237A8E1DEACDD100BAAED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A237A771DEACDD000BAAED4 /* FBIApp */;
+			targetProxy = 7A237A8D1DEACDD100BAAED4 /* PBXContainerItemProxy */;
+		};
+		7A237A991DEACDD100BAAED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A237A771DEACDD000BAAED4 /* FBIApp */;
+			targetProxy = 7A237A981DEACDD100BAAED4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A237A7F1DEACDD000BAAED4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A237A801DEACDD000BAAED4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A237A841DEACDD000BAAED4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A237A851DEACDD000BAAED4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A237A9E1DEACDD100BAAED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A237A9F1DEACDD100BAAED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A237AA11DEACDD100BAAED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF11EB477165A345C430172 /* Pods-FBIApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FBIApp/FBIApp.entitlements;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = FBIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sesh-Harika.FBI-FR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FBIApp/FBIApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A237AA21DEACDD100BAAED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CF8D6A9199811C7D0894AF /* Pods-FBIApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FBIApp/FBIApp.entitlements;
+				DEVELOPMENT_TEAM = 5PKYKCYDR5;
+				INFOPLIST_FILE = FBIApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sesh-Harika.FBI-FR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FBIApp/FBIApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A237AA41DEACDD100BAAED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162A11E8488D75D81CFD2398 /* Pods-FBIAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56L368TV74;
+				INFOPLIST_FILE = FBIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nempe1.FBIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBIApp.app/FBIApp";
+			};
+			name = Debug;
+		};
+		7A237AA51DEACDD100BAAED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5A352D99B52177F4631A5A /* Pods-FBIAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56L368TV74;
+				INFOPLIST_FILE = FBIAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nempe1.FBIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBIApp.app/FBIApp";
+			};
+			name = Release;
+		};
+		7A237AA71DEACDD100BAAED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1EEA1FBE182D8071FB82D2 /* Pods-FBIAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56L368TV74;
+				INFOPLIST_FILE = FBIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nempe1.FBIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBIApp;
+			};
+			name = Debug;
+		};
+		7A237AA81DEACDD100BAAED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388A4ECB19C3C09D78D69B0D /* Pods-FBIAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56L368TV74;
+				INFOPLIST_FILE = FBIAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nempe1.FBIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A237A731DEACDD000BAAED4 /* Build configuration list for PBXProject "FBIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A237A9E1DEACDD100BAAED4 /* Debug */,
+				7A237A9F1DEACDD100BAAED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A237AA01DEACDD100BAAED4 /* Build configuration list for PBXNativeTarget "FBIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A237AA11DEACDD100BAAED4 /* Debug */,
+				7A237AA21DEACDD100BAAED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A237AA31DEACDD100BAAED4 /* Build configuration list for PBXNativeTarget "FBIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A237AA41DEACDD100BAAED4 /* Debug */,
+				7A237AA51DEACDD100BAAED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A237AA61DEACDD100BAAED4 /* Build configuration list for PBXNativeTarget "FBIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A237AA71DEACDD100BAAED4 /* Debug */,
+				7A237AA81DEACDD100BAAED4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A237A701DEACDD000BAAED4 /* Project object */;
+}
